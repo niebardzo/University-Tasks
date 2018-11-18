@@ -77,5 +77,7 @@ def try_hook_jeeves(x,s, e, n):
 # Test Case:
 #
 
+print (target_function([2.7,3.18]))
 
-print(hook_jeeves([2.7,3.18],1,1e-3,0.5))
+#print(hook_jeeves([2.7,3.18],1,1e-3,0.5))
+#print(hook_jeeves([3.2,3.68],1,1e-3,0.5))
