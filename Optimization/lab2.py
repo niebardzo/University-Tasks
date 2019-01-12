@@ -207,6 +207,9 @@ with open('results.csv', 'w') as csvfile:
 #
 
 
+tStop = 20
+tStart = 0.0001
+t = np.arange(0.,tStop,tStart)
 
 def target_function(x):
 	k1,k2 = x

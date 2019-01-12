@@ -6,6 +6,7 @@ from scipy.integrate import odeint
 import random
 from numpy import linalg as LA
 from scipy.optimize import minimize
+from mpl_toolkits.mplot3d import Axes3D
 
 np.set_printoptions(threshold=np.nan)
 
