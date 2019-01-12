@@ -160,7 +160,6 @@ class Solution:
 exp1 = random.random() * 10
 exp2 = random.random() * 10
 exp3 = random.random() * 10
-s = 1
 alpha = 1e-3
 epsi = 0.01
 exp = [exp1,exp2,exp3]
@@ -178,7 +177,7 @@ with open('results.csv', 'w') as csvfile:
 			print("k0: ", k0)
 			soln = Solution()
 
-			hok_jev = soln.hook_jeeves(k0, s, alpha, epsi)
+			hok_jev = soln.hook_jeeves(k0, e, alpha, epsi)
 			hok_jev_val = soln.target_function(hok_jev)
 			hok_jev_n = soln.counter - 1
 			rosen = soln.powell(k0)
